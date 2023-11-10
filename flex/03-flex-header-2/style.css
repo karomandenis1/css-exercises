@@ -37,7 +37,7 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 0px 24px;
+  padding: 8px 24px;
 }
 
 a {
@@ -55,16 +55,8 @@ ul {
   align-self: center;
 }
 
-.header-left {
+.header-left, .header-right {
   display: flex;
+  align-items: center;
   gap: 12px;
-}
-
-.header-right {
-  display: flex;
-  gap: 12px;
-}
-
-.profile-image {
-  align-self: center;
 }
