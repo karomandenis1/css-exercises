@@ -18,8 +18,11 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
   gap: 12px;
+  /* The issue was with the default styling of the list items, these two entries fixed everything
+  I hate CSS sometimes. I cheated with the solution of this one  */
+  margin: 0;
+  padding: 0;
 }
 
 a {
